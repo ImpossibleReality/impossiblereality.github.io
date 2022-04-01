@@ -46,9 +46,10 @@
   <input type="text" placeholder="Discord username">
   <!-- DM Me the word "potato" to get free 10k Vishnu coins -->
   <button id="submit">Submit</button>
+  <div id="success"></div>
   <script>
     btn = document.getElementById("submit")
-    success = document.getElementById("success-message")
+    success = document.getElementById("success")
 
     btn.addEventListener("click", () => {
       success.innerText = "1 second..."
